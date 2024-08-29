@@ -21,8 +21,8 @@ Finally, I split the data into training and testing sets, chronologically.
 
 To get a closer understanding of the data, I began with a decomposition. I divided my data into trend, seasonality and residuals.
 The trend, which indicates the long term direction of the data, indicated a progressive increase in sales. 
-At the same time, the seasonal component indicates that there is astrongly marked seasonal component in the data. It was marked at both the weekly
-and monthly levels. Finally, the residual category shows unexplained behavior. In this case, it wasn't high.
+At the same time, the seasonal component indicates that there is a strongly marked seasonal component in the data. Finally, the 
+residual category shows unexplained behavior. In this case, it wasn't high.
 
 Math note: the trend is estimated by calculating a simple moving average of the data. This 'smoothes' the data by dying down
 long term variations. Next, the seasonal component is obtained by removing the subtracting the trend from the original data -- in the
