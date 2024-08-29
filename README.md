@@ -59,6 +59,5 @@ This wouldn't be a clean solution, however. This brings me to our third (and mos
 The SARIMA model includes everything the ARIMA does with the added benefit of a seasonal component. In this case, estimating based on the decomposition model, I added
 a seaonal autoregressive term of 52 (weeks). In this example, this means that the point in our series will be reduced by the term that came 52 weeks ahead. 
 
-![ts_fig4](https://github.com/user-attachments/assets/8ea77e93-81bc-4597-a82a-b606547ac435)
-
+![sarima_fig2](https://github.com/user-attachments/assets/dbd72fc5-90b3-4f0a-b37a-c1204c96054e)
 
